@@ -108,8 +108,8 @@
         <div class="modal-body">
           <form action="https://formspree.io/f/meqdyvlp" method="post" class="row g-3 needs-validation" novalidate>
             <div class="col-md-12">
-              <label for="fullName" class="form-label">First name</label>
-              <input type="text" class="form-control" id="fullName" required>
+              <label for="fullName" class="form-label">Name</label>
+              <input type="text" name="fullName" class="form-control" id="fullName" required>
               <div class="valid-feedback">
                 Correct!
               </div>
@@ -120,21 +120,21 @@
 
             <div class="col-md-6">
               <label for="subjectEmail" class="form-label">Subject</label>
-              <input type="text" class="form-control" id="subjectEmail" required>
+              <input type="text" name="subjectEmail" class="form-control" id="subjectEmail" required>
               <div class="invalid-feedback">
                 Please write something!
               </div>
             </div>
             <div class="col-md-6">
               <label for="validEmail" class="form-label">Email</label>
-              <input type="email" class="form-control" id="validEmail" required>
+              <input type="email" name="validEmail" class="form-control" id="validEmail" required>
               <div class="invalid-feedback">
                 Please enter the valid email
               </div>
             </div>
             <div class="col-md-12">
               <label for="textarea12" class="form-label">Message</label>
-              <textarea class="form-control" id="textarea12" rows="4" required></textarea>
+              <textarea class="form-control" name="textarea12" id="textarea12" rows="4" required></textarea>
               <div class="invalid-feedback">
                 Please write something!
               </div>
